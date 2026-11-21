@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Perpustakaan Digital - SMK Bakti Persada Kendal</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- NAVBAR -->
+    <nav class="navbar">
+        <div class="brand">📚 PerpusDigital</div>
+        <div class="nav-links">
+            <a href="#beranda">Beranda</a>
+            <a href="#kategori">Kategori</a>
+            <a href="#koleksi">Koleksi Novel</a>
+            <a href="#tentang">Tentang</a>
+        </div>
+    </nav>
+
+    <!-- BERANDA -->
+    <header class="hero" id="beranda">
+        <div class="hero-content">
+            <p class="tagline">SELAMAT DATANG DI</p>
+            <h1>Perpustakaan Digital</h1>
+            <h2>SMK Bakti Persada Kendal</h2>
+            <p>Jelajahi berbagai koleksi novel pilihan mulai dari genre Drama, Fantasy, hingga Komedi.</p>
+            <a href="#koleksi" class="hero-button">Jelajahi Novel</a>
+        </div>
+    </header>
+
+    <!-- STATISTIK -->
+    <section class="statistics">
+        <div class="stat-box"><h2>12</h2><p>Koleksi Novel</p></div>
+        <div class="stat-box"><h2>200+</h2><p>Pembaca Aktif</p></div>
+        <div class="stat-box"><h2>3</h2><p>Genre Utama</p></div>
+    </section>
+
+    <!-- KATEGORI -->
+    <section class="section" id="kategori">
+        <div class="section-heading">
+            <p>KATEGORI NOVEL</p>
+            <h2>Pilih Genre Favoritmu</h2>
+        </div>
+        <div class="category-container">
+            <a href="#koleksi" class="category">📖 Semua Novel</a>
+            <a href="#drama" class="category">🎭 Novel Drama</a>
+            <a href="#fantasy" class="category">🌍 Novel Fantasy</a>
+            <a href="#komedi" class="category">😂 Novel Komedi</a>
+        </div>
+    </section>
+
+    <!-- KOLEKSI NOVEL -->
+    <section class="section collection" id="koleksi">
+        <div class="section-heading">
+            <p>KOLEKSI PERPUSTAKAAN</p>
+            <h2>Daftar Novel Pilihan</h2>
+        </div>
+
+        <div class="book-container">
+            <!-- 1. LASKAR PELANGI -->
+            <div class="book-card" id="drama">
+                <div class="book-cover cover-laskar-bg">
+                    <img src="NovelDrama/Noveldramalaskar.jpg" alt="Laskar Pelangi" class="book-cover-poster">
+                </div>
+                <div class="book-info">
+                    <span class="book-category">🎭 Novel Drama</span>
+                    <h3>Laskar Pelangi</h3>
+                    <p>Andrea Hirata</p>
+                    <a href="NovelDrama.html/laskarpelangi.html" class="borrow-button">Baca Novel</a>
+                </div>
+            </div>
+
+            <!-- 2. PERAHU KERTAS -->
+            <div class="book-card">
+                <div class="book-cover cover-perahu-bg">
+                    <img src="NovelDrama/Noveldramaperahukertas.jpg" alt="Perahu Kertas" class="book-cover-poster">
+                </div>
+                <div class="book-info">
+                    <span class="book-category">🎭 Novel Drama</span>
+                    <h3>Perahu Kertas</h3>
+                    <p>Dee Lestari</p>
+                    <a href="NovelDrama.html/perahukertas.html" class="borrow-button">Baca Novel</a>
+                </div>
+            </div>
+
+            <!-- 3. CRITICAL ELEVEN -->
+            <div class="book-card">
+                <div class="book-cover cover-critical-bg">
+                    <img src="NovelDrama/Noveldramacriticaleleven.jpg" alt="Critical Eleven" class="book-cover-poster">
+                </div>
+                <div class="book-info">
+                    <span class="book-category">🎭 Novel Drama</span>
+                    <h3>Critical Eleven</h3>
+                    <p>Ika Natassa</p>
+                    <a href="NovelDrama.html/criticaleleven.html" class="borrow-button">Baca Novel</a>
+                </div>
+            </div>
+
+            <!-- 4. RONGGENG DUKUH PARUK -->
+            <div class="book-card">
+                <div class="book-cover cover-ronggeng-bg">
+                    <img src="NovelDrama/NoveldeamaRonggengDukuhParuk.jpg" alt="Ronggeng Dukuh Paruk" class="book-cover-poster">
+                </div>
+                <div class="book-info">
+                    <span class="book-category">🎭 Novel Drama</span>
+                    <h3>Ronggeng Dukuh Paruk</h3>
+                    <p>Ahmad Tohari</p>
+                    <a href="NovelDrama.html/ronggeng.html" class="borrow-button">Baca Novel</a>
+                </div>
+            </div>
+
+            <!-- 5. BUMI -->
+            <div class="book-card" id="fantasy">
+                <div class="book-cover cover-bumi-bg">
+                    <img src="NovelFantasy/Novelfantasybumi.jpg" alt="Bumi" class="book-cover-poster">
+                </div>
+                <div class="book-info">
+                    <span class="book-category">🌍 Novel Fantasy</span>
+                    <h3>Bumi</h3>
+                    <p>Tere Liye</p>
+                    <a href="NovelFantasy.html/bumiseries.html" class="borrow-button">Baca Novel</a>
+                </div>
+            </div>
+
+            <!-- 6. BULAN -->
+            <div class="book-card">
+                <div class="book-cover cover-bulan-bg">
+                    <img src="NovelFantasy/Novelfantasybulan.jpg" alt="Bulan" class="book-cover-poster">
+                </div>
+                <div class="book-info">
+                    <span class="book-category">🌍 Novel Fantasy</span>
+                    <h3>Bulan</h3>
+                    <p>Tere Liye</p>
+                    <a href="NovelFantasy.html/bulanseries.html" class="borrow-button">Baca Novel</a>
+                </div>
+            </div>
+
+            <!-- 7. MATAHARI -->
+            <div class="book-card">
+                <div class="book-cover cover-matahari-bg">
+                    <img src="NovelFantasy/Novelfantasymatahari.jpg" alt="Matahari" class="book-cover-poster">
+                </div>
+                <div class="book-info">
+                    <span class="book-category">🌍 Novel Fantasy</span>
+                    <h3>Matahari</h3>
+                    <p>Tere Liye</p>
+                    <a href="NovelFantasy.html/matahariseries.html" class="borrow-button">Baca Novel</a>
+                </div>
+            </div>
+
+            <!-- 8. THE NIGHT CIRCUS -->
+            <div class="book-card">
+                <div class="book-cover cover-circus-bg">
+                    <img src="NovelFantasy/Novelfantasynightcircus.jpg" alt="The Night Circus" class="book-cover-poster">
+                </div>
+                <div class="book-info">
+                    <span class="book-category">🌍 Novel Fantasy</span>
+                    <h3>The Night Circus</h3>
+                    <p>Erin Morgenstern</p>
+                    <a href="NovelFantasy.html/nightcircus.html" class="borrow-button">Baca Novel</a>
+                </div>
+            </div>
+
+            <!-- 9. KAMBING JANTAN -->
+            <div class="book-card" id="komedi">
+                <div class="book-cover cover-komedi-bg">
+                    <img src="NovelKomedi/Novelkomedikambingjantan.jpg" alt="Kambing Jantan" class="book-cover-poster">
+                </div>
+                <div class="book-info">
+                    <span class="book-category">😂 Novel Komedi</span>
+                    <h3>Kambing Jantan</h3>
+                    <p>Raditya Dika</p>
+                    <a href="NovelKomedi.html/kambingjantan.html" class="borrow-button">Baca Novel</a>
+                </div>
+            </div>
+
+            <!-- 10. MARMUT MERAH JAMBU -->
+            <div class="book-card">
+                <div class="book-cover cover-marmut-bg">
+                    <img src="NovelKomedi/Novelkomedimarmutmerahjambu.jpg" alt="Marmut Merah Jambu" class="book-cover-poster">
+                </div>
+                <div class="book-info">
+                    <span class="book-category">😂 Novel Komedi</span>
+                    <h3>Marmut Merah Jambu</h3>
+                    <p>Raditya Dika</p>
+                    <a href="NovelKomedi.html/marmutmerahjambu.html" class="borrow-button">Baca Novel</a>
+                </div>
+            </div>
+
+            <!-- 11. MANUSIA SETENGAH SALMON -->
+            <div class="book-card">
+                <div class="book-cover cover-salmon-bg">
+                    <img src="NovelKomedi/Novelkomedimanusiasetengahsalmon.jpg" alt="Manusia Setengah Salmon" class="book-cover-poster">
+                </div>
+                <div class="book-info">
+                    <span class="book-category">😂 Novel Komedi</span>
+                    <h3>Manusia Setengah Salmon</h3>
+                    <p>Raditya Dika</p>
+                    <a href="NovelKomedi.html/manusiasetengahsalmon.html" class="borrow-button">Baca Novel</a>
+                </div>
+            </div>
+
+            <!-- 12. JOMBLO -->
+            <div class="book-card">
+                <div class="book-cover cover-jomblo-bg">
+                    <img src="NovelKomedi/Novelkomedijomblo.jpg" alt="Jomblo" class="book-cover-poster">
+                </div>
+                <div class="book-info">
+                    <span class="book-category">😂 Novel Komedi</span>
+                    <h3>Jomblo</h3>
+                    <p>Adhitya Mulya</p>
+                    <a href="NovelKomedi.html/jomblo.html" class="borrow-button">Baca Novel</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- TENTANG & FOOTER -->
+    <section class="about" id="tentang">
+        <div class="about-content">
+            <p>TENTANG KAMI</p>
+            <h2>Perpustakaan SMK Bakti Persada Kendal</h2>
+            <p>Perpustakaan Digital merupakan ruang baca modern bagi siswa untuk menikmati berbagai karya sastra dan novel terbaik.</p>
+        </div>
+    </section>
+
+    <footer>
+        <h3>📚 PerpusDigital</h3>
+        <p>SMK Bakti Persada Kendal</p>
+        <p>© 2026 Perpustakaan Digital. Semua Hak Dilindungi.</p>
+    </footer>
+</body>
+</html>
